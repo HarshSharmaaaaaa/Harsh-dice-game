@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dicee Game</title>
+        <link rel="icon" href="images/whiteDice.ico">
+        <link rel="stylesheet" href="styles1.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+    </head>
+
+    <body>
+        
+        <div class = "container">
+
+            <h1>Refresh Me</h1>
+
+            <div class="dice">
+                <p id="player1">Player 1</p>
+                <img class="img" src="images/dice6.png">
+            </div>
+
+            <div class="dice">
+                <p id="player2" >Player 2</p>
+                <img class="img" src="images/dice6.png">
+            </div>
+
+            <div class="necc">
+
+                <div class="click">
+
+                    <button type="button" class="design hvr" onclick="myfunc()" > Refresh Me! </button>
+                </div>
+    
+                <div class="click">
+                    <button id="reset" type="button" class="design hvr" onclick="resetFun()"> Reset </button>
+                </div>
+
+            </div>
+
+            <div class="click">
+                <button id="reset" type="button" class="design hvr" onclick="editNameFun()"> Edit Player's Name </button>
+            </div>
+            
+
+        </div>
+        <audio id="myAudio">
+            <source src="roll.ogg" type="audio/ogg">
+            <source src="roll.mp3" type="audio/mpeg">
+           
+        </audio>
+          
+        <script src="index.js"></script>
+
+
+    </body>
+
+    <footer>
+        www 🎲 Dice-Game 🎲 com
+    </footer>
+
+</html>
